@@ -1,5 +1,6 @@
 
 
+
 # #DECLARANDO VARIABLES DE ENTORNO PARA EJECUCION DE OS.SYSTEM en pycharm
 # #funcion para limpiar pantalla -- RECORDAR DE DECLARAR LA VARIABLE DE ENTORNO -- ruta para agregar la variable
 # #settings-- build,excution,deployment-- consolo .--- python console-- envirommetn variable -- agregar ("export TERM=xterm-color")
