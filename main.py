@@ -1,5 +1,154 @@
 
-#<>
+#.-----------------------------------------------------
+#.----------------------------------------------------- estudiar despues eventos
+#semaforo automata ne python
+# import time                                # Librería o Módulo implementado para llevar el tiempo del semáforo
+# from fysom import Fysom                    # Libreria o Módulo que contiene las funciones para la máquina
+#
+# semaforo = Fysom({ 'initial': 'verde',     # Estado inicial de la máquina.
+#         	   'events': [                   # Lista de transiciones (eventos) de la máquina
+#                   {'name': 'precaucion', 'src': 'verde', 'dst': 'amarillo'},
+#                   {'name': 'stop', 'src': 'amarillo', 'dst': 'rojo'},
+#                   {'name': 'go', 'src': 'rojo', 'dst': 'verde'} ] })
+#
+# while True:
+#   if semaforo.current == "verde":  # 'semaforo.current' almacena el estado actual de la máquina
+#     print(semaforo.current)
+#     time.sleep(15)                 # 'time.sleep(n)' espera 'n' segundos para continuar con la ejecución del programa
+#     semaforo.precaucion()
+#   if semaforo.current == "amarillo":
+#     print(semaforo.current)
+#     time.sleep(5)
+#     semaforo.stop()
+#   if semaforo.current == "rojo":
+#     print(semaforo.current)
+#     time.sleep(10)
+#     semaforo.go()
+
+
+
+
+
+
+
+# #dividr o multipkicar todos lo valores de una lista
+#metodo nuero 1
+# a = [10,20,30,40,50,60]
+# indice =0
+# for h in a:
+#     a[indice]/=5
+#     indice+=1
+# print(a)
+#metodo numeor 2 mismo resultado
+# a = [1,2,3,4,5,6]
+# i = 0
+#
+# for i ,h in enumerate(a):
+#     a[i] *= 10
+# print(a)
+#print(list(range(10))) #creando una lista a raiz de un rango de numeros
+
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+# #programita funcionando todas las opciones todo lo del curos 20 %
+# import os
+# import  time
+# a = input("escribe la palabra go para iniciar el programa : ")
+#
+# while a == "go":
+#     print("revisa el menu de opcines ")
+#     print(" 1.- sumar dos numeor \n 2.- restar dos numeor \n 3.- saludar \n 4.- dividir \n 5.-ingresar valores en una lista   \n 6.- salir del programa")
+#     opc = int(input("ingrese el numeor de la opcion que desea realizar "))
+#     if opc == 1:
+#         f = int(input(" ingrese el vallor del primer numero "))
+#         g = int(input(" ingrese el valor del segundo numeor "))
+#         j = f+g
+#         print("el resultado de la suma de los numeros es -->",j)
+#     elif opc == 2:
+#         f = int(input(" ingrese el vallor del primer numero "))
+#         g = int(input(" ingrese el valor del segundo numeor "))
+#         j = f - g
+#         print("el resultado de la resta de los numeros es -->", j)
+#     elif opc == 3:
+#         nom = input("ingrese su nombre por favor ")
+#         print("un gusto saludarlo ",nom," que tenga buen dia ")
+#     elif opc == 4:
+#         f = int(input(" ingrese el vallor del primer numero "))
+#         g = int(input(" ingrese el valor del segundo numeor "))
+#         if f > g:
+#             c = f / g
+#             print(" el resultado de la division es -->",c)
+#         elif f ==g :
+#             c = f /g
+#             print("el resultado de la division es -->",c)
+#         else:
+#             print("el resultado de la operacion es menor a la unidad")
+#     elif opc ==5:
+#         print("opcion para ingresar valores en una lista ")
+#         y = int(input("ingrese el numeor de valores con los q contara la lista "))
+#         list = []
+#         for x in range(0,y):
+#             nombr = input("ingrese elprimer nombre la lista que tendra un indece de ")
+#             list.append(nombr)
+#             list.sort()
+#         print("mostarndo la lista de nombres ingresados ")
+#         print(list)
+#         os.system("pause")
+#         time.sleep(10)
+#     elif opc == 6:
+#         b = input("si dese salir del programa digite la palbra --salir--")
+#         if b == "salir":
+#             break
+#         elif b != "salir":
+#
+#             print("Regresando al programa en 5")
+#             time.sleep(1)
+#             print("regresando al programa en 4")
+#             time.sleep(1)
+#             print("Regresando al programa en 3")
+#             time.sleep(1)
+#             print("regresando al programa en 2")
+#             time.sleep(1)
+#             print(" redirigiendo al programa ahora")
+#             time.sleep(1)
+#             os.system("clear")
+#             continue
+#     else:
+#         print("usted no ingreso un numero de opcion valido \n regresando al menu principal del programa")
+#     time.sleep(3)
+#     os.system("clear")
+# else:
+#     print("usted no digito la plabara indica")
+#     #break
+# #
+
+
+
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+# #utilizando el cicli while con if para porcesos sencillos de conteo
+# a = 0
+# b =0
+# while a <=10:
+#     a+= 1
+#     print("oli")
+#     if a ==5:
+#         print("interacion ",a)
+#         break
+#     else:
+#         print("continuamos ")
+#
+
+
+# for z in range (0,255):
+#     for y in range (0,255):
+#         print(z,y)
+
+
 #.-----------------------------------------------------
 #.-----------------------------------------------------
 
