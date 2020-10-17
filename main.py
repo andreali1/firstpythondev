@@ -1,3 +1,4 @@
+#ingresando a funciones en python
 #.-----------------------------------------------------
 #.----------------------------------------------------- termiandno parametroa basicos y pasando a funciones
 #el format puedes ingreasr valores en la cadena pero debe estar dentro de una variable primero
@@ -8,6 +9,14 @@
 # ni = "--me llegas al pincho "
 # frase = "hola como estas {2} , como te encuentras en esta tarde {0} , danos un mensaje {1} ".format(na,ne,ni)
 # print(frase)
+# we ='andree'
+# wa = 'aliaga'
+# fa = ' como estas {} , pero te gusta {}'.format(we,wa)
+# print('{:>100}'.format(fa)) # el :>100 le indicas al programa el numeor de tabulaciones con el que deb mostrar el texto y ademas
+# #estamos interando un format dentro de otro format, no hay diferencia ya que "fa" ya nos entrega una cadena entera asi q seria inutil
+
+
+
 
 #ingresanoddatos por teclado n en consola
 # #ingresando varios valores en una lista y ordenandolos en forma creciente
