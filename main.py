@@ -1,3 +1,127 @@
+#.-----------------------------------------------------
+#.----------------------------------------------------- termiandno parametroa basicos y pasando a funciones
+#el format puedes ingreasr valores en la cadena pero debe estar dentro de una variable primero
+#el roden en q lo pongas sera el que agarre si no especificas un lugar en las comillas osea en el orden en q ingrese
+# pero si especificas posiciones con 0,1,2 lo ingresara en el roden que tu le indiques al programa
+# na = "..andreee"
+# ne = "..bien"
+# ni = "--me llegas al pincho "
+# frase = "hola como estas {2} , como te encuentras en esta tarde {0} , danos un mensaje {1} ".format(na,ne,ni)
+# print(frase)
+
+#ingresanoddatos por teclado n en consola
+# #ingresando varios valores en una lista y ordenandolos en forma creciente
+# print("programa para ingreso de varios valores en una lista ")
+# a = int(input("ingresa el numeor de elementos que va tener la lista"))
+# li = []
+# for h in range (a):
+#     li.append(input("ingresa el valor "))
+# li.sort()
+# print(li)
+
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+#maneo de colas en python
+#para usar librerias no vienen preinstaladas en los paquetes asi que se tiene q llamar a la libreria (from collections import deque)
+#puedes eleiminar el primer elemento y el ultimo
+# from collections import deque
+# cola = deque()
+# print(cola)
+# cola = deque(['andree','carlos','juan '])
+# print(cola)
+# #cola.pop() # eliminas el ultimo elemento de la lista
+# cola.popleft() #eliminas el primer elemento de la lista
+# print(cola)
+
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+#mnejando pilas todo casi  lo mismo que las listas
+# api = [2,5,9]
+# print(api, "mostarando lista original")
+# api.append(4)
+# api.append(8)
+# api.append(18)
+# api.append(12)
+# api.append(3)
+# api.append(1)
+# print(api,"mostrando lista con los nuevos valores ingresados ")
+# api.sort() # ordenadno en metodo creciente la lista
+# print(api,"mostrando lista con valores ya operdenaods")
+# #a = api.pop() #eliminando el ultimo valor de la lista
+# a = api.pop(4) # eliminando un valor de la lista segun su orden especifico
+# c = len(api) # determinando el numeor de elementos que tiene la lista
+# print(c,"num elementos") # mostrando numeor de elementos de la lista
+# print(api)#"mostrando lista con el valor eimando "
+# print(a, "valor eliminado") # valor que eliminaste de la lista
+# print(api)
+# api.append(a)
+# print(api)
+# api.sort()
+# print(api)
+# #multiplucaondo todos los elementods de la lista por un numoer
+# for h in range(0,c):
+#     b =(api[h]*c)
+#     print("el numero ", api[h], "  multiplicado por ", c, " es igual ah ---> " ,b)
+#     #print(b )
+#
+
+
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+#diccionarios control y crear diccionarios desde una lista
+# mi = ['miCoche1', 'miCoche2', 'miCoche3', 'miCoche4', 'miCoche5']
+# lis =[]
+# con = set(mi)
+# print(con)
+# con1 = list(con)
+# con1.sort()
+# print(con1,"hli")
+# lis.extend(con1)
+# print(lis)
+# dic2 = dict(enumerate((lis)))
+# print(dic2)
+
+# #agregando valores a un diccionario en python
+# dici = {"nombre":"andree", "apellido ":"aliaga"} # lista original
+# print(dici)#motrandi lista original
+# dici["seg"] = "calderon" #agregando una nueva llave y valor
+# print(dici) # mostarando diccionario modificado con el nuevo valor
+
+
+
+#
+# mi2 = ["c","f","b" ,"w", "j", "e","a"] # lista original
+# print(mi2) # mostarando lista original
+# mi2.sort() #ordenando lista
+# print(mi2)#mostarndo lista ordenada
+# dic = dict(enumerate(mi2,1)) #convirtiendo la lista en un diccionairo ordenado, el argugmente declarado luego de la lista
+# #enumerate(mi2, 1) el argumento indica desde que numeor empezara a enumerar si no se delcara el numeor empieza desde el 0
+# print(dic) #mostrando el diccionairo ya ordenado que nacio de la lista
+# print("-x-x-x--x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-x-x-x-fuera de serie ")
+# mi = ["c","f","b" ,1,3,5,6,"w", "j", "e","a"]
+# frozenset((mi))
+# print(mi)
+# """Existen dos tipos de conjuntos: set, propiamente dicho, que es mutable y coloca los ítems en un orden aleatorio; y
+# frozenset, que tal y como sugiere el pronombre "frozen", que se traduce como "congelado", es inmutable, es decir,
+# que no se puede modificar. Esta es en síntesis su diferencia fundamental.
+# """
+
+
+# #mostrando las llaves con sus valores de iun diccionario
+# dic = {'andree':'aliaga', 'jennifer': 'serpa','rosa':'calderon'}
+# dics = ['hola', 'chau']
+# #dic['andree'] = 'calderon' #modificando el valor de una llave en el diccionario
+# #del(dic['andree']) #eliminando elemento del diccionario
+# a =0
+# for i in dic:
+#     print(i #esta leyendo solo la llave n el orden como ingresaste darto
+#           ,dic[i]) #el dic[i] esta ubicando con el numero de la llave el valor que va mostrar
 
 
 #.-----------------------------------------------------
@@ -9,7 +133,7 @@
 # print(my_set)
 # new_lis = list(my_set)
 # print(new_lis)
-
+# print("x-x-x-x-x-x-x--x-x-x-x--x-x-x-x-x--x-x-x-")
 # lista =["aba", "abe", "abi", "abo", "abu","aba","aba","carro", "carro"] #lista inicial
 # print(lista)
 # con = set(lista) #convirtiendo la lista en conjunto para eliminar elementos repetidos
@@ -19,7 +143,8 @@
 # las.extend(newc_con) #ingresando los valores de la nueva lista en la lista vacia
 # las.sort() #ordenando la lista por orden alfabetico
 # print(las)
-
+# cadena = "cnskacndkncdsknvdsnkvsndvkndlamslcmdscdsvnns" # cadema con muchos caracteres repetidos
+# print(set(cadena))# elimianndo caracateres repetidos
 
 
 # my_set = set([1,2,3,4])
