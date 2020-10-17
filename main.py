@@ -1,4 +1,104 @@
 
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+#convirtiendo de lista a conjunto y luego regresando a lista
+# lista = [1,2,3,4,5,5,5,5,5]
+# print(lista)
+# my_set = set(lista)
+# print(my_set)
+# new_lis = list(my_set)
+# print(new_lis)
+
+# lista =["aba", "abe", "abi", "abo", "abu","aba","aba","carro", "carro"] #lista inicial
+# print(lista)
+# con = set(lista) #convirtiendo la lista en conjunto para eliminar elementos repetidos
+# print(con)
+# newc_con = list(con) #creando una nueva lista dsde un conjunto CONVIRTIENDO UN CONUNTO EN LISTA
+# las = [] #nueva lista vacia
+# las.extend(newc_con) #ingresando los valores de la nueva lista en la lista vacia
+# las.sort() #ordenando la lista por orden alfabetico
+# print(las)
+
+
+
+# my_set = set([1,2,3,4])
+# my_list = list(my_set)
+# print my_list
+
+
+
+
+
+
+#ingresando caondicionales basados en la respuesta de un una coleccion
+# cole = {"aba", "abe", "abi", "abo", "abu"} # no se puede tener elementos repetidos en colecciones
+# print("aba" in cole)
+# if ("aba" in cole) == True:
+#     print("el if si funciona ")
+#manejando conjuntos en python creando y agregando nuevos conjuntos
+#con = set() #creando una lista vacia
+#con.add(2) #agregando un valor a una lista
+#print(con)  ##impirmiendo la lista
+# con = {1,3,4,5}
+# con.add(2)
+# print(con)
+# con.add(0)
+# print(con)
+# (con.add(91))
+# print(con)
+
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+# #manejando tuplas primera tupla de ahi convertiendo a lista y agergando un elemento y despues regresando a tupla
+# tu = ('andree','anthony', 'aliaga',25, [1,2,3],-80)
+# print(tu)
+# a = list(tu)
+# print(a)
+# a.append('yohanna')
+# b = tuple(a)
+# print(b)
+# print(b[3])
+
+
+#.-----------------------------------------------------
+#.-----------------------------------------------------
+# #ingresando valores por consola de una lista y luego ubicando el numeor de mayor valor en la lista
+# #"la ubicacuiion se hace deacuerdo a la posicion "
+# a = []
+# for x in range(5):
+#     b =int(input(("ingrese los valores de la lista : ")))
+#     a.append(b)
+# print(a)
+#
+# num = a[0]
+# for x in range (1,5):
+#     if a[x] > num:
+#         num = a[x]
+#
+# print(a)
+# print(num)
+#
+
+
+
+# lista=[]
+# for x in range(5):
+#     valor=int(input("Ingrese valor:"))
+#     lista.append(valor)
+#
+# mayor=lista[0]
+# for x in range(1,5):
+#     print(x)
+#     if lista[x]>mayor:
+#         mayor=lista[x]
+#
+# print("Lista completa")
+# print(lista)
+# print("Mayor de la lista")
+# print(mayor)
 #.-----------------------------------------------------
 #.----------------------------------------------------- estudiar despues eventos
 #semaforo automata ne python
@@ -24,7 +124,6 @@
 #     print(semaforo.current)
 #     time.sleep(10)
 #     semaforo.go()
-
 
 
 
