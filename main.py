@@ -1,3 +1,99 @@
+
+
+# #funciones mel scrip holi  todas las usadas estan en el import
+# from holi import multiplicacion, division
+# print("programa de  multi y divi")
+#
+# print(" ingrese el numero de la operacion que desea realizar ")
+# print("1 .- multiplicacion")
+# print("2.- division ")
+# opc = int(input("el ingrese el valor -->"))
+# b = int(input("ngrese el primer valor "))
+# c = int(input("ingrese el segundo valor "))
+# if opc == 1:
+#     multiplicacion(b,c)
+# elif opc ==2:
+#     division(b,c)
+#
+
+
+
+
+# #utilizando funciones de manera mas directa en el from estan las funciones llamadas de holi
+# #solo funciones suma y res
+# from holi import suma,resta,tabla
+# print(" sumas y restas ")
+# print("1.- suma de los numeros")
+# print("2 .- la resta de los numeor s")
+# print("3.- obtener la tabla de un numero ")
+# a = int(input("ingrese el numoer de la operacion q desea realizar "))
+# if a ==1 :
+#     f= int(input("ingrese el primer valor"))
+#     g = int(input("ingrese el segundo calor "))
+#     suma(f,g)
+# elif a == 2:
+#     f = int(input("ingrese el primer valor"))
+#     g = int(input("ingrese el segundo calor "))
+#     resta(f, g)
+# elif a== 3:
+#     g = int(input("ingrese el numero"))
+#     tabla(g)
+# else:
+#     print("el numeor ingresado no es una opcion ")
+
+
+
+
+
+
+
+#usando funciones del scrip holi en el import especifica que funciones estoy utilizando
+# from holi import persona, nota
+#
+# dic1 =  dict()
+# dic2 =  dict()
+#
+# a = persona(dic1, 'andree', 'aliaga', 30)
+# print('nombre :', a['nom'], 'Apellido: ',a['ape'], 'edad : ', a['age'])
+#
+# y = int(input("ingrese el valor de la primera nota xxxxx "))
+# t = int(input("ingrese l valor de la segunda notaxxxxx"))
+# u = int(input("ingrese el valor de la tercera personaxxxx"))
+# b = nota(y,t,u)
+#
+
+
+
+
+
+# #usando funciones eingresando los primeros usos de la misma
+# import holi # importando funciones de otro scrip
+# def estude(f,g): #declarando la primera funcion local
+#     d = f * g
+#     print("la multiplicacion de los numero s es ---> ",d)
+#
+# a=input("ingresa una palabra ")
+#
+# if a == 'go': #llamando a la funcion de otro scrip importar "import -- nombre del scrip -- . la funciopn y parametros
+#     f = int(input("ingresa valor de j "))
+#     w = int(input("ingresa el valor de k "))
+#     holi.multi(f,w)
+# elif a == "local": #llamando a la funcion dentro del mismo scrip
+#     h = int(input("inrgesando primer valor"))
+#     l = int(input("ingresando segundo valor"))
+#     estude(h,l)
+# elif a == 'chau': #cerrando el programa
+#     print("no hay nada ")
+# else:
+#     print("no hay funcion con la que se peueda tarabajar")
+
+
+
+
+
+
+
+
 #ingresando a funciones en python
 #.-----------------------------------------------------
 #.----------------------------------------------------- termiandno parametroa basicos y pasando a funciones
@@ -14,7 +110,6 @@
 # fa = ' como estas {} , pero te gusta {}'.format(we,wa)
 # print('{:>100}'.format(fa)) # el :>100 le indicas al programa el numeor de tabulaciones con el que deb mostrar el texto y ademas
 # #estamos interando un format dentro de otro format, no hay diferencia ya que "fa" ya nos entrega una cadena entera asi q seria inutil
-
 
 
 
