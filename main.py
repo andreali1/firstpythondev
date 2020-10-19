@@ -1,7 +1,7 @@
-from holi import funca
-
-funca(1,2,3,4,andree='aliaga', rosa ='calderon', notas =[1,2,3,4])
-
+##funciones on argumentos variables puedena variar en tupla o en diccionarios definicion especificafa en keeps de google
+# from holi import funca
+#
+# funca(1,2,3,4,andree='aliaga', rosa ='calderon', notas =[1,2,3,4])
 
 # def argu(*tu):
 #     for tus in tu:

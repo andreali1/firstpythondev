@@ -1,3 +1,4 @@
+#funcion con argumento variable
 def funca(*ho,**lo):
     b =0
     for tus in ho:
@@ -6,7 +7,6 @@ def funca(*ho,**lo):
     print(b)
     for x in lo:
         print(x , " ",lo[x] )
-
 
 
 
