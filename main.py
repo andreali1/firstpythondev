@@ -1,3 +1,45 @@
+from holi import funca
+
+funca(1,2,3,4,andree='aliaga', rosa ='calderon', notas =[1,2,3,4])
+
+
+# def argu(*tu):
+#     for tus in tu:
+#         print(tus)
+#
+# argu('andree', 'aliaga',122,[1,2,3,4,5])
+#
+# def dele(**lo):
+#     for x in lo:
+#         print(x, lo[x])
+#
+# dele(andree = 'aliaga', rosa = 'calderon ', notas = [1,2,3,4,5],carlos= ' coca' )
+
+
+
+
+
+# numero =[9,8,7]
+# for x,i in enumerate(numero): #x esta dando la posiscion en la q estan los valores yy la "i" esta haciendo q se saquen los valores de
+# #la lista para poder operarlos con el operador que se encuntra luego del segundo prin dos lineas mas abajo
+#     print(x,"xxxxxx")
+#     print(i)
+#     numero[x] *=3
+#
+# print(numero)
+
+# #trabahjando con las funciones y como se puede manejar los valores q esten declaradas antes en ellas
+# import  holi
+# a,b,c,d = holi.gente() # la funcion tiene en el retur 4 valores cone sto estamos asigano a cada una de la varialbles un
+# # valor y por eso ya podemos llamalas de manera dicrrecta
+# print(holi.gente())
+# print(a)
+# print(type(a))
+# print(b)
+# print(c)
+# print(type(c))
+# print(d)
+
 
 
 # #funciones mel scrip holi  todas las usadas estan en el import

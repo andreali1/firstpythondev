@@ -1,3 +1,15 @@
+def funca(*ho,**lo):
+    b =0
+    for tus in ho:
+        b+=tus
+        print(tus)
+    print(b)
+    for x in lo:
+        print(x , " ",lo[x] )
+
+
+
+
 def multiplicacion(q,w):
     g = q *w
     print("l resultado de la multiplicacion es ---> ",g)
@@ -11,7 +23,6 @@ def division(q,w):
         print("el resuñtado de la operaion es -->",b)
     elif q <w:
         print("el resultado de la operaicion es menor a la unidad ")
-
 
 
 def multi(j,k):
@@ -48,3 +59,10 @@ def tabla(a):
         print("el numero {} mutiplicado por {} es iguala a -->".format(x,a),b)
     return 0
 
+
+def gente():
+    return "hola", "chau",1, [12,3,4,5,6]
+
+def potencia(a,b):
+    c = pow(a,b)
+    return print(c)
