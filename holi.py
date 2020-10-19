@@ -1,6 +1,7 @@
 def multiplicacion(q,w):
     g = q *w
     print("l resultado de la multiplicacion es ---> ",g)
+    #return g
 def division(q,w):
     if q > w:
         b = q/ w
