@@ -1,4 +1,74 @@
-##funciones on argumentos variables puedena variar en tupla o en diccionarios definicion especificafa en keeps de google
+# #ingresando para la funcion con uso de --raise--
+# from  holi import error
+# error()
+#
+
+
+# #excepcines reconociendo los errores
+# try:
+#     a = int(input("ingresa el numero"))
+#     10  / a
+#     #si ingresas texto es un ValueError
+#     #si ingresas cero es un ZeroDivisionError
+# except ValueError:
+#     print("ingresaste texto ")
+# except ZeroDivisionError:
+#     print("no se puede dividir entre cero ")
+# except Exception as x:
+#     print(type(x).__name__)#identifica el tipo de error que esta cometiendo para declarara en la excepciion por error
+#
+
+
+
+
+# #en este ejemplo el error forzado parte de no ingresar el tipo de variable al numeor q se va ingresar
+# try:
+#     a=input("ingresar numero :  ")
+#     10/a
+# except Exception as x: #le estas dando al Expection el nombre de x osea un valor  -- x== Exception
+#     print(type(x).__name__) # muestrael nombre del erro que se esta ejecutando
+
+
+#exepciones multiples en python y como funciona el try
+# while True: #while solo de prueba para que programa no se cierre
+#     try:#cuando pueden exitir un erro obligarotio o por mal ingreos de dato s
+#         va = int (input("ingres el numeor de telefono"))
+#         print( "confirme si si numeor de telfono es correcto ",va)
+#         opc= int(input("ingrese 1 para si y 2 para no "))
+#         if opc ==1:
+#             print("gracias ")
+#         elif opc ==2:
+#             print("reingrese su numeor de telefono")
+#             continue
+#         else:
+#             print("ustede no inrgeso numero ")
+#     except: #ya no sale Syntax erro line etc etc sino se muestra este mensaje
+#         print("usted ingreso caravteres o simbolos mas no numero s")
+#
+#     else: #cuando termina el --try--- y de manera satisfactoria y se puede continuar
+#         print("igreso de datos correecto ")
+#         break #para termianr el while y no sea un bucle infinito
+#     finally:#se muestra siempre que termina el ry
+#         print("Mcuhas gracias por su tiempo y paciencia")
+
+
+
+
+
+# print("ingresa tu numero de celular ")
+# try:
+#     b = int(input("ingresa el neumero "))
+#     a = 2
+#     x = a*b
+#     print("es el doble de tu numoer ",x)
+# except:
+#     print("no ingresaste un numero")
+
+
+
+
+
+##funciones on argumentos variables puden variar en tupla o en diccionarios definicion especificafa en keeps de google
 # from holi import funca
 #
 # funca(1,2,3,4,andree='aliaga', rosa ='calderon', notas =[1,2,3,4])
@@ -14,7 +84,6 @@
 #         print(x, lo[x])
 #
 # dele(andree = 'aliaga', rosa = 'calderon ', notas = [1,2,3,4,5],carlos= ' coca' )
-
 
 
 

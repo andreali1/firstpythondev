@@ -1,3 +1,28 @@
+#trabajando con try y funciones
+#funciona siempre y cuando desde  el main e usea la funcion y y la mandes vacia  obviamente importando ion y el scrip
+def error(estu= None):
+    try:
+        if estu is None:
+            raise print("describe algo")
+            #funcion ---raise- sirve para que te muestre el erro normal de consocla
+            # cuando esta mal el codigo  peor en el value error puedes poner el texto que desee
+    except ValueError:
+        print("ingresa algo please")
+
+
+
+
+
+#unciones con recursividad usando la funcion dentro de la misma funcion
+def atras(seg):
+    seg -=1
+    if seg >=0:
+        print(seg)
+        atras(seg)
+    else:
+        print("finish")
+
+
 #funcion con argumento variable
 def funca(*ho,**lo):
     b =0
