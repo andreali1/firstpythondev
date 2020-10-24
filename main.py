@@ -111,21 +111,34 @@
 
 
 
-# #funciones mel scrip holi  todas las usadas estan en el import
-# from holi import multiplicacion, division
-# print("programa de  multi y divi")
-#
-# print(" ingrese el numero de la operacion que desea realizar ")
-# print("1 .- multiplicacion")
-# print("2.- division ")
-# opc = int(input("el ingrese el valor -->"))
-# b = int(input("ngrese el primer valor "))
-# c = int(input("ingrese el segundo valor "))
-# if opc == 1:
-#     multiplicacion(b,c)
-# elif opc ==2:
-#     division(b,c)
-#
+
+
+###programa en BASH
+##from holi import multiplicacion
+##print ("ingrese un numeo de operacion sumr = 1, resta = 2" )
+##a = int(input("ingresa la opcion"))
+##b = int(input("primer valor"))
+##c = int (input("segundo valor"))
+##if a ==2 :
+##    multiplicacion(b,c)
+        
+    
+
+###funciones mel scrip holi  todas las usadas estan en el import
+##from holi import multiplicacion, division
+##print("programa de  multi y divi")
+##
+##print(" ingrese el numero de la operacion que desea realizar ")
+##print("1 .- multiplicacion")
+##print("2.- division ")
+##opc = int(input("el ingrese el valor -->"))
+##b = int(input("ngrese el primer valor "))
+##c = int(input("ingrese el segundo valor "))
+##if opc == 1:
+##    multiplicacion(b,c)
+##elif opc ==2:
+##    division(b,c)
+
 
 
 
