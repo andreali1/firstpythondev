@@ -12,7 +12,6 @@ def error(estu= None):
 
 
 
-
 #unciones con recursividad usando la funcion dentro de la misma funcion
 def atras(seg):
     seg -=1
