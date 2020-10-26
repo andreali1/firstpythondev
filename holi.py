@@ -1,3 +1,39 @@
+#trabajando con try y funciones
+#funciona siempre y cuando desde  el main e usea la funcion y y la mandes vacia  obviamente importando ion y el scrip
+def error(estu= None):
+    try:
+        if estu is None:
+            raise print("describe algo")
+            #funcion ---raise- sirve para que te muestre el erro normal de consocla
+            # cuando esta mal el codigo  peor en el value error puedes poner el texto que desee
+    except ValueError:
+        print("ingresa algo please")
+
+
+
+
+#unciones con recursividad usando la funcion dentro de la misma funcion
+def atras(seg):
+    seg -=1
+    if seg >=0:
+        print(seg)
+        atras(seg)
+    else:
+        print("finish")
+
+
+#funcion con argumento variable
+def funca(*ho,**lo):
+    b =0
+    for tus in ho:
+        b+=tus
+        print(tus)
+    print(b)
+    for x in lo:
+        print(x , " ",lo[x] )
+
+
+
 def multiplicacion(q,w):
     g = q *w
     print("l resultado de la multiplicacion es ---> ",g)
@@ -12,7 +48,6 @@ def division(q,w):
         print("el resuñtado de la operaion es -->",b)
     elif q <w:
         print("el resultado de la operaicion es menor a la unidad ")
-
 
 
 def multi(j,k):
@@ -49,3 +84,10 @@ def tabla(a):
         print("el numero {} mutiplicado por {} es iguala a -->".format(x,a),b)
     return 0
 
+
+def gente():
+    return "hola", "chau",1, [12,3,4,5,6]
+
+def potencia(a,b):
+    c = pow(a,b)
+    return print(c)
