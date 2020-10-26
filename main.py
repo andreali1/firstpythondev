@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+#finish con la clase de try y errores !-x-x-x-x-x-x--x-x-x-x-x-xx--xx--x-x-x-x-xxx--x-x-x-xx--x-x-xx 725 lineas de codigo solo clase
 # #ingresando para la funcion con uso de --raise--
 # from  holi import error
 # error()
