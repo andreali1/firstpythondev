@@ -204,7 +204,6 @@
 
 
 
-
 #ingresando a funciones en python
 #.-----------------------------------------------------
 #.----------------------------------------------------- termiandno parametroa basicos y pasando a funciones
