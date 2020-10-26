@@ -69,6 +69,9 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
 ##funciones on argumentos variables puden variar en tupla o en diccionarios definicion especificafa en keeps de google
 # from holi import funca
 #
@@ -113,6 +116,9 @@
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> master
 =======
 >>>>>>> master
 
