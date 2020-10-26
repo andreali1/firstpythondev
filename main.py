@@ -1,3 +1,81 @@
+# #ojo estoy ejecuantdno el programa en modo consola defrente con  "python main.py"
+# class auto:
+#     rojo = False
+#     def __init__(self): #iniciando el proceso de construccion del auto
+#         print("creacion del auto")
+#     def fabricar(self): # fabricando el auto para poder validar
+#         self.rojo = True
+#     def confi_au(self):  #confirmado si a sido o no creado !
+#         if self.rojo:
+#             print("el auto esta pintado ")
+#         else:
+#             print(" no esta pintado !! HELP !! ")
+#
+# a = auto() # init de creacion del objeto en este caso se creo el auto es el resultado del proceso
+# a.confi_au() # esta validando i el auto esta creado o no esta creado con algun metodo q tenag self  en este caso no esta creado por eso
+#             #sale el HELP !!! en el print
+# a.fabricar() #aca recien esta entrando al metodo fabricar ue le da ell SELF que ncesita para poder pasasr a ser true
+# a.confi_au() # aca esta validando el self y con eso ya ya confirma q el auto esta fnconando por eso ya no entra al HELP !
+#
+
+
+
+
+
+
+# class auto:
+#     rojo = False
+#     def __init__(self):
+#         print("creacion del auto")
+#     def fabricar(self):
+#         self.rojo = True
+# a = auto()
+# a.fabricar()
+# print(a.rojo)
+
+
+
+
+
+# #clase con atributo interno
+# class auto:
+#     rojo = False #dandoles un atributo a la clase
+#
+# c= auto() #creando el obejto de la calses
+#
+# print(c.rojo)
+
+
+# #obejto de manera directa
+# #clase con atributo externo
+# class auto:
+#     pass
+# tienda = auto()  #tienda es el objeto de ecomo se va usar
+# tienda.color = "verde" # dandole atributos al objeto para luego usarlo
+# tienda.puertas = "muchas"
+# tienda.marca = "subaru"
+# print("mi auto es de color", tienda.marca) #mostrandoun texto y llamando un atributo del obejeto de la clase
+
+
+#clase numoer uno !
+# #tipo de clase "class" se ve el typo en el print
+# class estu:
+#     pass
+#
+# estu = estu()
+#
+# print(type(estu))
+# #efiniendo tipo de valor para poder ver la diferencia en la escritura o sintasyx
+# def estu():
+#     pass
+# print(type(estu))
+
+
+
+#################################################################################
+#funcipones de try !!!!!
+#################################################################################
+#finishclase de try pasando a poo
 # #ingresando para la funcion con uso de --raise--
 # from  holi import error
 # error()
@@ -112,11 +190,6 @@
 
 
 
-<<<<<<< HEAD
-=======
->>>>>>> master
-=======
->>>>>>> master
 
 ###programa en BASH
 ##from holi import multiplicacion
@@ -238,7 +311,6 @@
 # fa = ' como estas {} , pero te gusta {}'.format(we,wa)
 # print('{:>100}'.format(fa)) # el :>100 le indicas al programa el numeor de tabulaciones con el que deb mostrar el texto y ademas
 # #estamos interando un format dentro de otro format, no hay diferencia ya que "fa" ya nos entrega una cadena entera asi q seria inutil
-
 
 
 #ingresanoddatos por teclado n en consola
