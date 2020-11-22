@@ -1,3 +1,51 @@
+class caculadora:
+    def __init__(self,a= None, b = None):
+        self.a = a
+        self.b = b
+    def suma(self,a= None, b = None):
+        c =0
+        if a is not None and b is not None:
+            print("no hay atributos")
+        else:
+            c = a + b
+        #print(c)
+    def resta(self,a,b):
+        d = a-b
+        print("ersta ",d)
+z= caculadora()
+z.suma()
+
+
+
+
+
+
+
+# #segundo ejemplo como enviando atributos variables  validando si llegan o no llegan a la funcion dentro de la clase
+# class carro:
+#     def __init__(self,puertas = None, color = None):
+#         self.puertas = puertas
+#         self.color = color
+#         if puertas is not None and color is not None:
+#             print("el auto tiene {} puertas y es de color {}".format(puertas,color))
+#         else:
+#             print("no llegaron atributs ")
+# g = carro()
+#
+# #primer ejemplo de como enviar atributos
+# class carro:
+#     def __init__(self,puertas, color): #recibiendo  atributos para llenar los self
+#         self.puertas = puertas
+#         self.color = color
+#         print("el auto tiene {} puertas y es de color {}".format(puertas,color))
+#
+# g = carro(4, "verde") #enviando atributos al self como una funcion normal
+#
+#
+
+
+
+
 # #ojo estoy ejecuantdno el programa en modo consola defrente con  "python main.py"
 # class auto:
 #     rojo = False
@@ -12,11 +60,61 @@
 #             print(" no esta pintado !! HELP !! ")
 #
 # a = auto() # init de creacion del objeto en este caso se creo el auto es el resultado del proceso
-# a.confi_au() # esta validando i el auto esta creado o no esta creado con algun metodo q tenag self  en este caso no esta creado por eso
+# a.confi_au() # esta validando si el auto esta creado o no esta creado con algun metodo q tenag self  en este caso no esta creado por eso
 #             #sale el HELP !!! en el print
 # a.fabricar() #aca recien esta entrando al metodo fabricar ue le da ell SELF que ncesita para poder pasasr a ser true
 # a.confi_au() # aca esta validando el self y con eso ya ya confirma q el auto esta fnconando por eso ya no entra al HELP !
 #
+
+# class carro:
+#     rojo = False
+#
+#     def __init__(self):
+#         print("se contruyo el auto ")
+#     def pintura(self):
+#         self.rojo= True
+#     def con_fab(self):
+#         if (self.rojo):
+#             print("se pinto el carro")
+#         else:
+#             print("no se pinto")
+#
+# a = carro() #creando el atributo y guiardandolo en una variable
+#
+# a.con_fab()  #entra a confirmar la pintura pero no entro a la funcion pintura resultado n se pinto
+#
+# a.pintura() #tentrando a pintura y con esto si contruye la condicion para el posterior if
+#
+# a.con_fab() # ahora cuando confirma la pintura ya esta validando que esta pintado
+
+# class avion:
+#     reparado = False
+#     def __init__(self): #si o si  entra a esta funcion por q se declara como funcion  de inicio de la clase
+#         print("el avion salio de fabrixa  ")
+#     def fallas(self): # el avion no vuela por la funcion fallas
+#         print("el avion no vuela ")
+#     def rep_fallas(self): #el avion estra en reparacion y con eso ya puede funcionar
+#         self.reparado = True
+#     def nu_fallas(self): #responde si el avion entro primero a reparacion o si no entro
+#         if (self.reparado): #validando q entro a reparacion
+#             print("todo bien")
+#         else: # si no entra se da este caso
+#             print("aun presenta problemas")
+#
+# b = avion()
+# b.fallas()
+# b.rep_fallas()
+# b.nu_fallas()
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -31,16 +129,15 @@
 #         self.rojo = True
 # a = auto()
 # a.fabricar()
-# print(a.rojo)
+# #print(a.rojo)
 
 
 
 
-
-# #clase con atributo interno
+#clase con atributo interno
 # class auto:
 #     rojo = False #dandoles un atributo a la clase
-#
+#     azul =  True
 # c= auto() #creando el obejto de la calses
 #
 # print(c.rojo)
@@ -57,15 +154,15 @@
 # print("mi auto es de color", tienda.marca) #mostrandoun texto y llamando un atributo del obejeto de la clase
 
 
-#clase numoer uno !
-# #tipo de clase "class" se ve el typo en el print
+# clase numoer uno !
+#tipo de clase "class" se ve el typo en el print
 # class estu:
 #     pass
 #
 # estu = estu()
 #
-# print(type(estu))
-# #efiniendo tipo de valor para poder ver la diferencia en la escritura o sintasyx
+# #print(type(estu))
+# #definiendo tipo de valor para poder ver la diferencia en la escritura o sintasyx
 # def estu():
 #     pass
 # print(type(estu))
