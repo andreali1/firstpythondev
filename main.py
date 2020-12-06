@@ -1,6 +1,6 @@
 
 
-
+print("hola mundo ")
 
 ###programa en BASH
 ##from holi import multiplicacion
